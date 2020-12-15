@@ -2,7 +2,7 @@ BootCamp is an MTT profile for OpenHoldem.
 
 BootCamp V 1.06 is free and OpenSource. 
 
-BootCamp is a very user-friendly profile, although it works very well and plays very good poker out of the box, it is designed with an excellent structure and framework to make editing easy for users to make modifications to suit their own style or game requirements. There are many intuitive comments in the script to help users fine tune and modify BootCamp. Even a beginner can customise BootCamp with very little time or effort.
+BootCamp is a very user-friendly profile, although it works very well and plays very good poker out of the box, it is designed with an excellent structure and framework to ease editing for users who want to make modifications to suit their own style or game requirements. There are many intuitive comments in the script to help users fine tune and modify BootCamp. Even a beginner can customise BootCamp with very little time or effort.
 
 Although OpenHoldem is OpenSource there are commercial versions of it sold on-line, mostly non compliant with the GPL licence regulations. There are also many profiles for sale. Have you ever bought a profile for OH? Have you been disappointed? If so try BootCamp for free. It has been said BootCamp is better than any commercial profile available for OpenHoldem. I think BootCamp is amazing, try it for free and tell me what you think?
 If you have any horror stories about profiles you paid for I would love to hear your story, contact me at any of the links below, let's talk folks.
