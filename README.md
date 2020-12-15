@@ -10,7 +10,7 @@ BootCamp is an ongoing project there is much more to come, check back here from 
 
 To chat or discuss you will find me  <a href="http://www.maxinmontreal.com/forums/viewtopic.php?f=298&t=23268#p165225">Here On MaxInMontreal</a> 
 
-Or use GitHub discussion  <a href="https://github.com/IslandTrish/IslandTrish.github.io/discussions">Trish On Git</a> 
+Or use GitHub discussion  <a href="https://github.com/IslandTrish/IslandTrish.github.io/discussions">Trish On The Git</a> 
 
 Download BootCamp Here <a href="https://github.com/IslandTrish/IslandTrish.github.io/releases/download/BootCamp/BootCampByTrish_V_1_06.oppl">BootCamp V 1.06</a> 
 
