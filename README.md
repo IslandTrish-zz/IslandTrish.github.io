@@ -12,6 +12,8 @@ To chat or discuss you will find me  <a href="http://www.maxinmontreal.com/forum
 
 Or use GitHub discussion  <a href="https://github.com/IslandTrish/IslandTrish.github.io/discussions">Trish On Git</a> 
 
+Download BootCamp Here <a href="https://github.com/IslandTrish/IslandTrish.github.io/releases/download/BootCamp/BootCampByTrish_V_1_06.oppl">BootCamp V 1.06</a> 
+
 Get involved folks, let your thoughts and opinions be known, help me make BootCamp even better. All comments, queries, and feedback very welcome!
 
 To use BootCamp with V 13.1.3 of OH you need to replace the DefaultBot.ohf in your "bot_logic\DefaultBot" folder
