@@ -17,6 +17,6 @@ Download BootCamp Here <a href="https://github.com/IslandTrish/IslandTrish.githu
 Get involved folks, let your thoughts and opinions be known, help me make BootCamp even better. All comments, queries, and feedback very welcome!
 
 To use BootCamp with V 13.1.3 of OH you need to replace the DefaultBot.ohf in your "bot_logic\DefaultBot" folder
-Download DefaultBot.ohf here.
+Download DefaultBot.ohf Here <a href="https://github.com/IslandTrish/IslandTrish.github.io/releases/download/BootCamp/BootCampByTrish_V_1_06.oppl">DefaultBot.ohf for OH V 13.1.3</a> 
 
 Please note BootCamp only works with version 13.1.3 or newer of OpenHoldem, it will not work correctly with any older version.
