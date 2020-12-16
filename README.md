@@ -15,6 +15,8 @@ Or use GitHub discussion  <a href="https://github.com/IslandTrish/IslandTrish.gi
 
 Download BootCamp Here <a href="https://github.com/IslandTrish/IslandTrish.github.io/releases/download/BootCamp/BootCampByTrish_V_1_06.oppl">BootCamp V 1.06</a> 
 
+BootCamp V 1.07 <a href="https://github.com/IslandTrish/BootCamp_V_1.07">BootCamp V 1.07</a> 
+
 Get involved folks, let your thoughts and opinions be known, help me make BootCamp even better. All comments, queries, and feedback very welcome!
 
 To use BootCamp with V 13.1.3 of OH you need to replace the DefaultBot.ohf in your "bot_logic\DefaultBot" folder
