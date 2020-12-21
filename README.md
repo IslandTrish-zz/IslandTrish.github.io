@@ -18,6 +18,7 @@ Download BootCamp Here <a href="https://github.com/IslandTrish/IslandTrish.githu
 BootCamp V 1.07 <a href="https://github.com/IslandTrish/BootCamp_V_1.07">BootCamp V 1.07</a> 
 
 A free working tournament table map to get you started, contact me on any of the links above if you need assistance.
+Some errors fixed 21-12-2020
 Download Here <a href="https://github.com/IslandTrish/IslandTrish.github.io/releases/download/FreeTableMap/888_9Max_Trish_V3.tm">Free 9 seat 888 Table Map</a> 
 
 Get involved folks, let your thoughts and opinions be known, help me make BootCamp even better. All comments, queries, and feedback very welcome!
