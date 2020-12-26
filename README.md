@@ -15,7 +15,7 @@ Or use GitHub discussion  <a href="https://github.com/IslandTrish/IslandTrish.gi
 
 Download BootCamp Here <a href="https://github.com/IslandTrish/IslandTrish.github.io/releases/download/BootCamp/BootCampByTrish_V_1_07.oppl">BootCamp V 1.07</a> 
 
-BootCamp V 1.07 <a href="https://github.com/IslandTrish/BootCamp_V_1.07">BootCamp V 1.07</a> 
+BootCamp V 2.00 <a href="https://github.com/IslandTrish/BootCamp_V_1.07">BootCamp V 2.00</a> 
 
 A free working tournament table map to get you started, contact me on any of the links above if you need assistance.
 Some errors fixed 21-12-2020
