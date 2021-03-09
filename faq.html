@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>IslandTrish FAQs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="trish1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="bootcamp.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BootCamp</a>
+    <a href="tablemaps.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Table Maps</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FAQ</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ComingSoon</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">ComingSoon</a>
+        <a href="#" class="w3-bar-item w3-button">ComingSoon</a>
+        <a href="#" class="w3-bar-item w3-button">ComingSoon</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#bootcamp.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BootCamp</a>
+  <a href="tablemaps.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Table Maps</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FAQ</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Coming Soon</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/islandtrish_head1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3></h3>
+      <p><b></b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/bootcamp_head_robin1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3></h3>
+      <p><b></b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/bootcamp_head1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3></h3>
+      <p><b></b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">IslandTrish FAQs</h2>
+    <p class="w3-opacity"><i>Amazing Poker</i><br>
+      <br>
+</p>
+    <h2>Frequently Asked Questions</h2>
+<p> Ideally there will be lots of ideas to help you modify BootCamp to suit your own personal style or particular game type. For now it is early days and under construction...
+  .</p>
+  <div style= "text-align: left;" >
+  
+<button class="accordion">How to make a Gecko tweak? BootCamp uses a modified Gecko For PostFlop play</button>
+<div class="panel">
+  <p>You don't like how Gecko makes a play post flop and want to change it.</p>
+  <p><br>
+    Please never modify the original Gecko logic.
+    
+      <br>
+      Copy the function you want to change and paste it into BootCamp at the bottom of the file,  we will make our changes there within BootCamp which will overwrite the original Gecko.<br>
+<a href="http://www.maxinmontreal.com/forums/viewtopic.php?f=298&t=23268&start=30#p165580" target="_blank"  rel="noopener noreferrer">Check this post about changing C-Bets</a> </p>
+  <p> For more info about this or anything else. Please feel free to join in the community and ask questions or provide opinion or feedback, all very welcome. <a href="http://www.maxinmontreal.com/forums/viewtopic.php?f=298&t=23268" target="_blank"  rel="noopener noreferrer">MaxInMontreal Forum here...</a></p>
+</div>
+
+<button class="accordion">What Versions of Open Holdem does BootCamp work with</button>
+<div class="panel">
+  <p>BootCamp only works with Open Holdem Version 14.0.1 or newer. </p>
+  <p>Compatible versions are available to download on the links on this site. <br>
+    Or on the <a href="https://github.com/OpenHoldem/openholdembot" target="_blank"  rel="noopener noreferrer">OpenHoldem GitHub here...</a></p>
+</div>
+
+<button class="accordion">Changing The hands we steal with.</button>
+<div class="panel">
+  <p>An example of how to change our steal hands, loose raises from late positions. </p>
+  <p><a href="http://www.maxinmontreal.com/forums/viewtopic.php?f=298&t=23268&start=60#p165614" target="_blank"  rel="noopener noreferrer">I give an explaination here on MIM Forum...</a> 
+  </p>
+</div>
+
+<button class="accordion">Change handrank2652 to lists.</button>
+<div class="panel">
+  <p>If you do not like the handrank2652 method you can easily change to list based if you wish.
+  </p>
+  <p>Example:
+    <br>
+    "When InButton And handrank2652 < (2652 * 0.360) Raise Force" 
+    <br>
+    To<br>
+"When InButton And listMyButtonSteals Raise Force"</p>
+  <p>
+    <a href="http://www.maxinmontreal.com/forums/viewtopic.php?f=298&t=23268&start=60#p165614" target="_blank"  rel="noopener noreferrer">Explaination here on MIM Forum...</a>  </p>
+</div>
+
+<button class="accordion">Change The Hands We Open Raise With</button>
+<div class="panel">
+  <p>Most people will want to change the hands we use to open raise.    </p>
+  <p><a href="http://www.maxinmontreal.com/forums/viewtopic.php?f=298&amp;t=23268&amp;p=167199#p167199" target="_blank"  rel="noopener noreferrer">Explaination here on MIM Forum...</a> </p>
+
+
+  <p></p>
+</div>
+
+<button class="accordion">Under Construction</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Under Construction</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+  </div>
+  </div>
+
+
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="#" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium">Powered by <a href="#" target="_blank">IslandTrish</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 6000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
