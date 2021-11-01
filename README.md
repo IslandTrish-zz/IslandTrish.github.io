@@ -1,6 +1,6 @@
 BootCamp is an MTT profile for OpenHoldem.
 
-BootCamp V 1.07 is free and OpenSource. 
+BootCamp V 1.08 is free and OpenSource. 
 
 BootCamp is a very user-friendly profile, although it works very well and plays very good poker out of the box, it is designed with an excellent structure and framework to ease editing for users who want to make modifications to suit their own style or game requirements. There are many intuitive comments in the script to help users fine tune and modify BootCamp. Even a beginner can customise BootCamp with very little time or effort.
 
